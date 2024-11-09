@@ -25,7 +25,7 @@ It uses SCIP solver, MAXHS solver, and a WMaxCDCL static solver and uses fallbac
 > > The binary for the solver is available freely in [here](https://maxsat-evaluations.github.io/2023/descriptions.html).
 >
 
-> Benchmark
+# Benchmark
 > The Benchmark instances used in here are the Exact Weighted Benchmarks from MSE 2023.
 > > The benchmarks are freely available in [here](https://maxsat-evaluations.github.io/2023/benchmarks.html).
 >
