@@ -5,7 +5,7 @@ output files for each of the instances as well.
 This program was necessary for me because, WMaxCDCL has 3 binaries, that it uses based on the problem instance.<br>
 It uses SCIP solver, MAXHS solver, and a WMaxCDCL static solver and uses fallback methods to change the solver to optimize the benchmark instance.
 
-> Running the code
+# Running the code
 > I needed the results for some research work that I have been doing. So, there is a bash script run.sh that runs the wmaxcdcl_mse23.sh bash script, which in turn invokes the main.py
 > If you want to run it in the local machine, you can simply run the main.py program.
 >
@@ -19,7 +19,7 @@ It uses SCIP solver, MAXHS solver, and a WMaxCDCL static solver and uses fallbac
 >
 >Keep in mind that the folder name for the benchmarks might need to be changed.
 
-> WMaxCDCL
+# WMaxCDCL
 > WMaxCDCL is a MAXSAT solver which performed very well in the MSE 2023.
 > > The binary for the solver is available freely in [here](https://maxsat-evaluations.github.io/2023/descriptions.html).
 >
