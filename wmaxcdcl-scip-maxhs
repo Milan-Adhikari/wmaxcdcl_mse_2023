@@ -1,0 +1,36 @@
+#!/bin/bash
+FNAME=$1
+TSCIP=$2
+TMHS=$3
+
+timeout $TSCIP ./uwrmaxsat -v0 -no-bin -no-sat -no-par -scip-cpu=$TSCIP -m -bm $FNAME > outSCIP.txt
+CODE=$?
+
+if [ $CODE -eq 124 ] || [ $CODE -eq 133 ]; then
+	echo "c Stop SCIP"
+	rm outSCIP.txt
+	timeout $TMHS ./maxhs -no-printOptions -printSoln -verb=0 $FNAME > outMaxHS.txt
+	CODE=$?
+
+	if [ $CODE -eq 124 ] || [ $CODE -eq 133 ]; then
+		echo "c Stop MaxHS"
+		UB=`grep "^o" outMaxHS.txt | tail -n 1 | cut -d ' ' -f 2`
+		rm outMaxHS.txt
+		if ! [ -z "$UB" ]; then
+			UB=$((UB+1))
+			echo "c UB from MaxHS=$UB"
+		else
+			echo "c no UB from MaxHS"
+		fi
+		./wmaxcdcl_static $FNAME $UB
+	else
+		echo "c Solved by MaxHS"
+		cat outMaxHS.txt
+		rm outMaxHS.txt
+	fi
+else
+	echo "c Solved by SCIP"
+	cat outSCIP.txt
+	rm outSCIP.txt
+fi
+
