@@ -22,10 +22,10 @@ It uses SCIP solver, MAXHS solver, and a WMaxCDCL static solver and uses fallbac
 
 # WMaxCDCL
 > WMaxCDCL is a MAXSAT solver which performed very well in the MSE 2023.
-> > The binary for the solver is available freely in [here](https://maxsat-evaluations.github.io/2023/descriptions.html).
+> > The binary for the solver is available freely [here](https://maxsat-evaluations.github.io/2023/descriptions.html).
 >
 
 # Benchmark
 > The Benchmark instances used in here are the Exact Weighted Benchmarks from MSE 2023.
-> > The benchmarks are freely available in [here](https://maxsat-evaluations.github.io/2023/benchmarks.html).
+> > The benchmarks are freely available [here](https://maxsat-evaluations.github.io/2023/benchmarks.html).
 >
