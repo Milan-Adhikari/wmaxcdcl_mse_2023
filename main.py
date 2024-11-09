@@ -1,6 +1,7 @@
 import os
 from utils.run_solver import run_solver
 from utils.parse_wmaxcdcl_output import parse_output
+from utils.check_file_size_limit import validate_file_size_exceeded
 
 
 def main():
@@ -26,6 +27,12 @@ def main():
             continue
 
         benchmark_path = os.path.join(BENCHMARK_DIR, benchmark)
+
+        file_size_exceeded = validate_file_size_exceeded(benchmark_path)
+        if file_size_exceeded:
+            print(f'{benchmark} exceeds the file size limit. Skipping...')
+            continue
+
         print(f'Running {benchmark_path}')
 
         # Run the solver 
