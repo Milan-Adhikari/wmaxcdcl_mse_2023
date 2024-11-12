@@ -60,9 +60,9 @@ def main():
 
 
 CWD = os.getcwd()  # Current working directory
-BENCHMARK_DIR = os.path.join(CWD, 'mse23-exact-weighted-benchmarks')  # Directory containing benchmarks
+BENCHMARK_DIR = os.path.join(CWD, 'satlib_uf250_zipped')  # Directory containing benchmarks
 BINARY_PATH = os.path.join(CWD, 'starexec_run_wmaxcdcl-scip600-maxhs1200')  # Path to the binary
-OUTPUT_DIR = os.path.join(CWD, 'output')  # Directory to store output
+OUTPUT_DIR = os.path.join(CWD, 'output_satlib_uf250')  # Directory to store output
 # Create output directory if it does not exist
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 INDIVIDUAL_RESULTS_DIR = os.path.join(OUTPUT_DIR, 'individual_results')  # Directory to store individual results
