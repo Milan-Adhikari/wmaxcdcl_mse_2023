@@ -3,7 +3,7 @@ import os
 CWD = os.getcwd()
 
 # time limit for the solvers
-TIMEOUT_LIMIT = 500
+TIMEOUT_LIMIT = None
 # file size limit for the solvers
 FILE_SIZE_LIMIT = 5 * 1024 * 1024
 CONVERTED_BENCHMARK_FOLDER = "converted-benchmarks-zipped"
