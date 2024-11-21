@@ -1,0 +1,138 @@
+#$!=uf100-0166_10_11.wcnf.xz#$!=
+c [MSE2023] -- begin -- [MSE2023]
+3.07/3.10	c Solved by SCIP
+3.07/3.10	c Using COMiniSatPS SAT solver by Chanseok Oh (2016)
+3.07/3.10	c Using SCIP solver, version 8.0.0, https://www.scipopt.org
+3.07/3.10	c Starting SCIP solver  (with time-limit = 600s) ...
+3.07/3.10	c SCIP optimum: 169
+3.07/3.10	v 1000111101111000011111001101100111111010000010010110000101110101011100110100100111111101010000111110
+3.07/3.10	o 169
+3.07/3.10	s OPTIMUM FOUND
+# WCTIME: wall clock time in seconds
+WCTIME=3.10606
+# CPUTIME: CPU time in seconds
+CPUTIME=3.08795
+# USERTIME: CPU time spent in user mode in seconds
+USERTIME=3.07206
+# SYSTEMTIME: CPU time spent in system mode in seconds
+SYSTEMTIME=0.015894
+# CPUUSAGE: CPUTIME/WCTIME in percent
+CPUUSAGE=99.4172
+# MAXVM: maximum virtual memory used in KiB
+MAXVM=492908
+c [MSE2023] -- end -- [MSE2023]
+#$!=uf100-0166_199_200.wcnf.xz#$!=
+c [MSE2023] -- begin -- [MSE2023]
+5.66/5.76	c Solved by SCIP
+5.66/5.76	c Using COMiniSatPS SAT solver by Chanseok Oh (2016)
+5.66/5.76	c Using SCIP solver, version 8.0.0, https://www.scipopt.org
+5.66/5.76	c Starting SCIP solver  (with time-limit = 600s) ...
+5.66/5.76	c SCIP optimum: 4258
+5.66/5.76	v 1100011011110001111111001101010100000100110110110101001100100101000100110101001101101100001000101110
+5.66/5.76	o 4258
+5.66/5.76	s OPTIMUM FOUND
+# WCTIME: wall clock time in seconds
+WCTIME=5.76762
+# CPUTIME: CPU time in seconds
+CPUTIME=5.73659
+# USERTIME: CPU time spent in user mode in seconds
+USERTIME=5.71933
+# SYSTEMTIME: CPU time spent in system mode in seconds
+SYSTEMTIME=0.017253
+# CPUUSAGE: CPUTIME/WCTIME in percent
+CPUUSAGE=99.462
+# MAXVM: maximum virtual memory used in KiB
+MAXVM=498296
+c [MSE2023] -- end -- [MSE2023]
+#$!=uf100-0166_30_31.wcnf.xz#$!=
+c [MSE2023] -- begin -- [MSE2023]
+7.69/7.74	c Solved by SCIP
+7.69/7.74	c Using COMiniSatPS SAT solver by Chanseok Oh (2016)
+7.69/7.74	c Using SCIP solver, version 8.0.0, https://www.scipopt.org
+7.69/7.74	c Starting SCIP solver  (with time-limit = 600s) ...
+7.69/7.74	c SCIP optimum: 635
+7.69/7.74	v 1100111111110010111011001101110110001001000110111101000101100100000100111100101010110100001000101110
+7.69/7.74	o 635
+7.69/7.74	s OPTIMUM FOUND
+# WCTIME: wall clock time in seconds
+WCTIME=7.74845
+# CPUTIME: CPU time in seconds
+CPUTIME=7.70819
+# USERTIME: CPU time spent in user mode in seconds
+USERTIME=7.68871
+# SYSTEMTIME: CPU time spent in system mode in seconds
+SYSTEMTIME=0.019481
+# CPUUSAGE: CPUTIME/WCTIME in percent
+CPUUSAGE=99.4805
+# MAXVM: maximum virtual memory used in KiB
+MAXVM=500416
+c [MSE2023] -- end -- [MSE2023]
+#$!=uf100-08_10_11.wcnf.xz#$!=
+c [MSE2023] -- begin -- [MSE2023]
+3.31/3.37	c Solved by SCIP
+3.31/3.37	c Using COMiniSatPS SAT solver by Chanseok Oh (2016)
+3.31/3.37	c Using SCIP solver, version 8.0.0, https://www.scipopt.org
+3.31/3.37	c Starting SCIP solver  (with time-limit = 600s) ...
+3.31/3.37	c SCIP optimum: 215
+3.31/3.37	v 1001111000110101011101100011111011000010011110000111100011010110101101111000111011000111100111010110
+3.31/3.37	o 215
+3.31/3.37	s OPTIMUM FOUND
+# WCTIME: wall clock time in seconds
+WCTIME=3.38109
+# CPUTIME: CPU time in seconds
+CPUTIME=3.36316
+# USERTIME: CPU time spent in user mode in seconds
+USERTIME=3.34547
+# SYSTEMTIME: CPU time spent in system mode in seconds
+SYSTEMTIME=0.017689
+# CPUUSAGE: CPUTIME/WCTIME in percent
+CPUUSAGE=99.4698
+# MAXVM: maximum virtual memory used in KiB
+MAXVM=492688
+c [MSE2023] -- end -- [MSE2023]
+#$!=uf100-08_199_200.wcnf.xz#$!=
+c [MSE2023] -- begin -- [MSE2023]
+3.66/3.74	c Solved by SCIP
+3.66/3.74	c Using COMiniSatPS SAT solver by Chanseok Oh (2016)
+3.66/3.74	c Using SCIP solver, version 8.0.0, https://www.scipopt.org
+3.66/3.74	c Starting SCIP solver  (with time-limit = 600s) ...
+3.66/3.74	c SCIP optimum: 5627
+3.66/3.74	v 1001111000110101011101100011111011000010011110100111100011010110101101110000111011000111100111010111
+3.66/3.74	o 5627
+3.66/3.74	s OPTIMUM FOUND
+# WCTIME: wall clock time in seconds
+WCTIME=3.74733
+# CPUTIME: CPU time in seconds
+CPUTIME=3.71815
+# USERTIME: CPU time spent in user mode in seconds
+USERTIME=3.70553
+# SYSTEMTIME: CPU time spent in system mode in seconds
+SYSTEMTIME=0.012621
+# CPUUSAGE: CPUTIME/WCTIME in percent
+CPUUSAGE=99.2214
+# MAXVM: maximum virtual memory used in KiB
+MAXVM=493120
+c [MSE2023] -- end -- [MSE2023]
+#$!=uf100-08_30_31.wcnf.xz#$!=
+c [MSE2023] -- begin -- [MSE2023]
+1.98/2.02	c Solved by SCIP
+1.98/2.03	c Using COMiniSatPS SAT solver by Chanseok Oh (2016)
+1.98/2.03	c Using SCIP solver, version 8.0.0, https://www.scipopt.org
+1.98/2.03	c Starting SCIP solver  (with time-limit = 600s) ...
+1.98/2.03	c SCIP optimum: 794
+1.98/2.03	v 1001111000110101011101100011111011000010011110000111110011010110111101111000111111000111100111010110
+1.98/2.03	o 794
+1.98/2.03	s OPTIMUM FOUND
+# WCTIME: wall clock time in seconds
+WCTIME=2.03229
+# CPUTIME: CPU time in seconds
+CPUTIME=2.02024
+# USERTIME: CPU time spent in user mode in seconds
+USERTIME=1.99734
+# SYSTEMTIME: CPU time spent in system mode in seconds
+SYSTEMTIME=0.022903
+# CPUUSAGE: CPUTIME/WCTIME in percent
+CPUUSAGE=99.4074
+# MAXVM: maximum virtual memory used in KiB
+MAXVM=491620
+c [MSE2023] -- end -- [MSE2023]

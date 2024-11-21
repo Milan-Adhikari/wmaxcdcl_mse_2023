@@ -1,5 +1,6 @@
 import os
 import lzma
+from utils.list_all_paths_in_a_folder_containing_files import list_all_paths_in_a_folder_containing_files
 
 def zip_into_xz(input_file_path, output_file_path):
     output_file_path = output_file_path + '.xz'
@@ -9,15 +10,20 @@ def zip_into_xz(input_file_path, output_file_path):
 CWD = os.getcwd()  # Current working directory
 
 # Path to the directory containing the files to be zipped
-dir_path = os.path.join(CWD, 'satlib_uf250')
+dir_path = os.path.join(CWD, 'converted-benchmarks')
 
 # Path to the directory where the zipped files will be stored
-zip_dir_path = os.path.join(CWD, 'satlib_uf250_zipped')
+zip_dir_path = os.path.join(CWD, 'converted-benchmarks-zipped')
 os.makedirs(zip_dir_path, exist_ok=True)
 
-# Iterate over the files in the directory
-for file_name in os.listdir(dir_path):
-    file_path = os.path.join(dir_path, file_name)
-    zip_file_path = os.path.join(zip_dir_path, file_name)
-    zip_into_xz(file_path, zip_file_path)
-    print(f'{file_name} zipped successfully')
+all_paths_in_dir = list_all_paths_in_a_folder_containing_files(dir_path)
+
+# print(f'Zipping files in {dir_path}...')
+# print(f'{all_paths_in_dir}')
+for path in all_paths_in_dir:
+    for file in os.listdir(path):
+        input_file_path = os.path.join(path, file)
+        output_file_path = input_file_path.replace(dir_path, zip_dir_path)
+        os.makedirs(os.path.dirname(output_file_path), exist_ok=True)
+        zip_into_xz(input_file_path, output_file_path)
+        print(f'Zipped {input_file_path} to {output_file_path}.xz')

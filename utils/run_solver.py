@@ -9,7 +9,7 @@ def run_solver(binary_path, benchmark_path):
             cmd,
             text=True,
             capture_output=True,
-            timeout=500
+            # timeout=500
         )
         return result.stdout
     except subprocess.CalledProcessError as e:

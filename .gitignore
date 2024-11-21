@@ -164,3 +164,10 @@ cython_debug/
 /wmaxcdcl_solver_from_competition
 /mse23-exact-weighted-benchmarks
 /satlib_uf250_zipped
+/uf20-91-zipped
+/uf200-860-zipped
+/uf100-430-zipped
+/test-zipped
+/old-results
+/converted-benchmarks
+/converted-benchmarks-zipped

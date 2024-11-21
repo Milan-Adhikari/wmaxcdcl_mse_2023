@@ -1,0 +1,7 @@
+file_name; optimization_time; optimal_objective; total_time; remarks;
+uf100-0166_10_11.wcnf.xz; 3.10606; 169; 3.254160165786743; {'status': 'OPTIMAL'};
+uf100-0166_199_200.wcnf.xz; 5.76762; 4258; 5.825069189071655; {'status': 'OPTIMAL'};
+uf100-0166_30_31.wcnf.xz; 7.74845; 635; 7.862607717514038; {'status': 'OPTIMAL'};
+uf100-08_10_11.wcnf.xz; 3.38109; 215; 3.4237911701202393; {'status': 'OPTIMAL'};
+uf100-08_199_200.wcnf.xz; 3.74733; 5627; 3.821314573287964; {'status': 'OPTIMAL'};
+uf100-08_30_31.wcnf.xz; 2.03229; 794; 2.1278295516967773; {'status': 'OPTIMAL'};
