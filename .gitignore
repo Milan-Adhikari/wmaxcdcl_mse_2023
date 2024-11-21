@@ -171,3 +171,4 @@ cython_debug/
 /old-results
 /converted-benchmarks
 /converted-benchmarks-zipped
+./results
