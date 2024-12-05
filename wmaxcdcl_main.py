@@ -3,7 +3,7 @@ import argparse
 import subprocess
 from global_variables import *
 from utils.validate_args import validate_folder
-from utils.parse_wmaxcdcl_output import parse_wmaxcdcl_output
+from utils.parse_wmaxcdcl_output_2 import parse_wmaxcdcl_output
 from utils.check_file_size_limit import validate_file_size_exceeded
 from utils.read_file_names_from_results import read_the_existing_file_names
 
